@@ -1,0 +1,34 @@
+Three Git Usages:
+1. Creating a new fresh project:
+	- create a new repo on github
+	- create a new project file under a folder and save it
+	- on terminal, go into that folder
+	- do "git clone [repo URL]"
+	- do "git status"
+	- do "git add [fileName]"
+	- do "git commit -m "[detailedMessage]"
+	- do "git push origin master"
+2. Adding a previously worked on file to a github repo:
+	- save the worked on file under a folder
+	- create a new repo on github
+	- on terminal, go into the folder in which the worked on file in located
+	- do "git init"
+	- do "git remote add origin [repo URL]"
+	- do "git pull origin master"
+	- do "git status"
+	- do "git add [fileName]"
+	- do "commit -m "[intendedMessage]"
+	- do "git push origin master"
+3. Importing another's repo to your github and eventually to your local computer:
+	- go into that other github repo
+	- click the "fork" button on top right
+	- copy the new repo URL that is now under your account
+	- on terminal, go onto the folder where you want all the repo files
+	- do "git clone [repo URL]"
+	- do "git status"
+	- do "git add -A"
+	- do "git commit -m "[intendedMessage]""
+
+	// {
+		- if working in a group project, do pull requests
+	}
